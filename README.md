@@ -2,7 +2,7 @@
 <h2>Новые трейтовые системы для RTW 1.5</h2>
 <p>
     <b>Делалось и тестировалось под RTW 1.5</b><br />
-    <b>За основу был взят мод от Egermejster: <a href="https://imtw.ru/topic/7155-egermejster-traits-systems/">Egermejster Traits Systems</a></b>
+    <b>За основу был взят мод от Egermejster: <a target="_blank" href="https://imtw.ru/topic/7155-egermejster-traits-systems/">Egermejster Traits Systems</a></b>
 </p>
     <h3><i>Краткое описание:</i></h3><p> -----старое------</p>
     <ul><li><b> - Счетчик побед (Когда генерал
