@@ -5094,6 +5094,35 @@ Trait  BrokenSignet
 
 ;------------------------------------------
 
+Trait  MainDynasty_romans_senate
+    Characters family
+
+    Level MainDynasty_romans_senate_K
+        Description MainDynasty_romans_senate_K_desc
+        EffectsDescription MainDynasty_romans_senate_K_effects_desc
+        Threshold  1 
+
+        Effect Influence  2
+        Effect Electability  3
+        Effect SenateStanding  15
+
+
+;------------------------------------------
+
+Trait  SideDynasty_romans_senate
+    Characters family
+
+    Level SideDynasty_romans_senate_K
+        Description SideDynasty_romans_senate_K_desc
+        EffectsDescription SideDynasty_romans_senate_K_effects_desc
+        Threshold  1 
+
+        Effect Influence  1
+        Effect Electability  1
+        Effect SenateStanding  5
+
+;------------------------------------------
+
 Trait  MainDynasty_romans_julii
     Characters family
 
@@ -5664,6 +5693,20 @@ Trait  LegendaryDynasty
 
 ;------------------------------------------
 
+Trait  DiplomatDynasty_romans_senate
+    Characters diplomat
+
+    Level DiplomatDynasty_romans_senate_K
+        Description DiplomatDynasty_romans_senate_K_desc
+        EffectsDescription DiplomatDynasty_romans_senate_K_effects_desc
+        Threshold  1 
+
+        Effect Influence  1
+        Effect Influence -1
+
+
+;------------------------------------------
+
 Trait  DiplomatDynasty_romans_julii
     Characters diplomat
 
@@ -6089,6 +6132,900 @@ Trait  intolerant
         Threshold  8 
 
         Effect Unrest  3
+
+
+;------------------------------------------
+
+;===============================================================
+;                     —◊≈“◊»  œŒ–¿∆≈Õ»… start
+;===============================================================
+
+;------------------------------------------
+Trait AmountDefeat0
+    Characters all
+    AntiTraits AmountDefeat1_9, AmountDefeat10_18, AmountDefeat19_27, AmountDefeat28_36, AmountDefeat37_45, AmountDefeat46_54, AmountDefeat55_63, AmountDefeat64_72, AmountDefeat73_81
+
+    Level AmountDefeat0_1
+        Description AmountDefeat0_1_desc
+        EffectsDescription AmountDefeat0_1_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+;------------------------------------------
+
+;------------------------------------------
+Trait AmountDefeat1_9
+    Characters all
+    AntiTraits AmountDefeat0, AmountDefeat10_18, AmountDefeat19_27, AmountDefeat28_36, AmountDefeat37_45, AmountDefeat46_54, AmountDefeat55_63, AmountDefeat64_72, AmountDefeat73_81
+
+    Level AmountDefeat_1
+        Description AmountDefeat_1_desc
+        EffectsDescription AmountDefeat_1_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_2
+        Description AmountDefeat_2_desc
+        EffectsDescription AmountDefeat_2_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_3
+        Description AmountDefeat_3_desc
+        EffectsDescription AmountDefeat_3_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_4
+        Description AmountDefeat_4_desc
+        EffectsDescription AmountDefeat_4_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_5
+        Description AmountDefeat_5_desc
+        EffectsDescription AmountDefeat_5_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_6
+        Description AmountDefeat_6_desc
+        EffectsDescription AmountDefeat_6_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_7
+        Description AmountDefeat_7_desc
+        EffectsDescription AmountDefeat_7_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_8
+        Description AmountDefeat_8_desc
+        EffectsDescription AmountDefeat_8_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_9
+        Description AmountDefeat_9_desc
+        EffectsDescription AmountDefeat_9_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+
+;------------------------------------------
+Trait AmountDefeat10_18
+    Characters all
+    AntiTraits AmountDefeat0, AmountDefeat1_9, AmountDefeat19_27, AmountDefeat28_36, AmountDefeat37_45, AmountDefeat46_54, AmountDefeat55_63, AmountDefeat64_72, AmountDefeat73_81
+
+    Level AmountDefeat_10
+        Description AmountDefeat_10_desc
+        EffectsDescription AmountDefeat_10_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_11
+        Description AmountDefeat_11_desc
+        EffectsDescription AmountDefeat_11_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_12
+        Description AmountDefeat_12_desc
+        EffectsDescription AmountDefeat_12_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_13
+        Description AmountDefeat_13_desc
+        EffectsDescription AmountDefeat_13_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_14
+        Description AmountDefeat_14_desc
+        EffectsDescription AmountDefeat_14_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_15
+        Description AmountDefeat_15_desc
+        EffectsDescription AmountDefeat_15_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_16
+        Description AmountDefeat_16_desc
+        EffectsDescription AmountDefeat_16_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_17
+        Description AmountDefeat_17_desc
+        EffectsDescription AmountDefeat_17_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_18
+        Description AmountDefeat_18_desc
+        EffectsDescription AmountDefeat_18_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+
+;------------------------------------------
+Trait AmountDefeat19_27
+    Characters all
+    AntiTraits AmountDefeat0, AmountDefeat1_9, AmountDefeat10_18, AmountDefeat28_36, AmountDefeat37_45, AmountDefeat46_54, AmountDefeat55_63, AmountDefeat64_72, AmountDefeat73_81
+
+    Level AmountDefeat_19
+        Description AmountDefeat_19_desc
+        EffectsDescription AmountDefeat_19_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_20
+        Description AmountDefeat_20_desc
+        EffectsDescription AmountDefeat_20_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_21
+        Description AmountDefeat_21_desc
+        EffectsDescription AmountDefeat_21_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_22
+        Description AmountDefeat_22_desc
+        EffectsDescription AmountDefeat_22_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_23
+        Description AmountDefeat_23_desc
+        EffectsDescription AmountDefeat_23_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_24
+        Description AmountDefeat_24_desc
+        EffectsDescription AmountDefeat_24_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_25
+        Description AmountDefeat_25_desc
+        EffectsDescription AmountDefeat_25_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_26
+        Description AmountDefeat_26_desc
+        EffectsDescription AmountDefeat_26_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_27
+        Description AmountDefeat_27_desc
+        EffectsDescription AmountDefeat_27_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+
+;------------------------------------------
+Trait AmountDefeat28_36
+    Characters all
+    AntiTraits AmountDefeat0, AmountDefeat1_9, AmountDefeat10_18, AmountDefeat19_27, AmountDefeat37_45, AmountDefeat46_54, AmountDefeat55_63, AmountDefeat64_72, AmountDefeat73_81
+
+    Level AmountDefeat_28
+        Description AmountDefeat_28_desc
+        EffectsDescription AmountDefeat_28_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_29
+        Description AmountDefeat_29_desc
+        EffectsDescription AmountDefeat_29_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_30
+        Description AmountDefeat_30_desc
+        EffectsDescription AmountDefeat_30_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_31
+        Description AmountDefeat_31_desc
+        EffectsDescription AmountDefeat_31_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_32
+        Description AmountDefeat_32_desc
+        EffectsDescription AmountDefeat_32_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_33
+        Description AmountDefeat_33_desc
+        EffectsDescription AmountDefeat_33_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_34
+        Description AmountDefeat_34_desc
+        EffectsDescription AmountDefeat_34_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_35
+        Description AmountDefeat_35_desc
+        EffectsDescription AmountDefeat_35_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_36
+        Description AmountDefeat_36_desc
+        EffectsDescription AmountDefeat_36_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+
+;------------------------------------------
+Trait AmountDefeat37_45
+    Characters all
+    AntiTraits AmountDefeat0, AmountDefeat1_9, AmountDefeat10_18, AmountDefeat19_27, AmountDefeat28_36, AmountDefeat46_54, AmountDefeat55_63, AmountDefeat64_72, AmountDefeat73_81
+
+    Level AmountDefeat_37
+        Description AmountDefeat_37_desc
+        EffectsDescription AmountDefeat_37_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_38
+        Description AmountDefeat_38_desc
+        EffectsDescription AmountDefeat_38_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_39
+        Description AmountDefeat_39_desc
+        EffectsDescription AmountDefeat_39_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_40
+        Description AmountDefeat_40_desc
+        EffectsDescription AmountDefeat_40_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_41
+        Description AmountDefeat_41_desc
+        EffectsDescription AmountDefeat_41_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_42
+        Description AmountDefeat_42_desc
+        EffectsDescription AmountDefeat_42_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_43
+        Description AmountDefeat_43_desc
+        EffectsDescription AmountDefeat_43_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_44
+        Description AmountDefeat_44_desc
+        EffectsDescription AmountDefeat_44_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_45
+        Description AmountDefeat_45_desc
+        EffectsDescription AmountDefeat_45_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+
+;------------------------------------------
+Trait AmountDefeat46_54
+    Characters all
+    AntiTraits AmountDefeat0, AmountDefeat1_9, AmountDefeat10_18, AmountDefeat19_27, AmountDefeat28_36, AmountDefeat37_45, AmountDefeat55_63, AmountDefeat64_72, AmountDefeat73_81
+
+    Level AmountDefeat_46
+        Description AmountDefeat_46_desc
+        EffectsDescription AmountDefeat_46_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_47
+        Description AmountDefeat_47_desc
+        EffectsDescription AmountDefeat_47_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_48
+        Description AmountDefeat_48_desc
+        EffectsDescription AmountDefeat_48_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_49
+        Description AmountDefeat_49_desc
+        EffectsDescription AmountDefeat_49_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_50
+        Description AmountDefeat_50_desc
+        EffectsDescription AmountDefeat_50_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_51
+        Description AmountDefeat_51_desc
+        EffectsDescription AmountDefeat_51_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_52
+        Description AmountDefeat_52_desc
+        EffectsDescription AmountDefeat_52_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_53
+        Description AmountDefeat_53_desc
+        EffectsDescription AmountDefeat_53_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_54
+        Description AmountDefeat_54_desc
+        EffectsDescription AmountDefeat_54_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+
+;------------------------------------------
+Trait AmountDefeat55_63
+    Characters all
+    AntiTraits AmountDefeat0, AmountDefeat1_9, AmountDefeat10_18, AmountDefeat19_27, AmountDefeat28_36, AmountDefeat37_45, AmountDefeat46_54, AmountDefeat64_72, AmountDefeat73_81
+
+    Level AmountDefeat_55
+        Description AmountDefeat_55_desc
+        EffectsDescription AmountDefeat_55_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_56
+        Description AmountDefeat_56_desc
+        EffectsDescription AmountDefeat_56_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_57
+        Description AmountDefeat_57_desc
+        EffectsDescription AmountDefeat_57_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_58
+        Description AmountDefeat_58_desc
+        EffectsDescription AmountDefeat_58_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_59
+        Description AmountDefeat_59_desc
+        EffectsDescription AmountDefeat_59_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_60
+        Description AmountDefeat_60_desc
+        EffectsDescription AmountDefeat_60_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_61
+        Description AmountDefeat_61_desc
+        EffectsDescription AmountDefeat_61_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_62
+        Description AmountDefeat_62_desc
+        EffectsDescription AmountDefeat_62_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_63
+        Description AmountDefeat_63_desc
+        EffectsDescription AmountDefeat_63_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+
+;------------------------------------------
+Trait AmountDefeat64_72
+    Characters all
+    AntiTraits AmountDefeat0, AmountDefeat1_9, AmountDefeat10_18, AmountDefeat19_27, AmountDefeat28_36, AmountDefeat37_45, AmountDefeat46_54, AmountDefeat55_63, AmountDefeat73_81
+
+    Level AmountDefeat_64
+        Description AmountDefeat_64_desc
+        EffectsDescription AmountDefeat_64_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_65
+        Description AmountDefeat_65_desc
+        EffectsDescription AmountDefeat_65_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_66
+        Description AmountDefeat_66_desc
+        EffectsDescription AmountDefeat_66_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_67
+        Description AmountDefeat_67_desc
+        EffectsDescription AmountDefeat_67_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_68
+        Description AmountDefeat_68_desc
+        EffectsDescription AmountDefeat_68_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_69
+        Description AmountDefeat_69_desc
+        EffectsDescription AmountDefeat_69_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_70
+        Description AmountDefeat_70_desc
+        EffectsDescription AmountDefeat_70_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_71
+        Description AmountDefeat_71_desc
+        EffectsDescription AmountDefeat_71_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_72
+        Description AmountDefeat_72_desc
+        EffectsDescription AmountDefeat_72_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+
+;------------------------------------------
+Trait AmountDefeat73_81
+    Characters all
+    AntiTraits AmountDefeat0, AmountDefeat1_9, AmountDefeat10_18, AmountDefeat19_27, AmountDefeat28_36, AmountDefeat37_45, AmountDefeat46_54, AmountDefeat55_63, AmountDefeat64_72
+
+    Level AmountDefeat_73
+        Description AmountDefeat_73_desc
+        EffectsDescription AmountDefeat_73_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_74
+        Description AmountDefeat_74_desc
+        EffectsDescription AmountDefeat_74_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_75
+        Description AmountDefeat_75_desc
+        EffectsDescription AmountDefeat_75_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_76
+        Description AmountDefeat_76_desc
+        EffectsDescription AmountDefeat_76_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_77
+        Description AmountDefeat_77_desc
+        EffectsDescription AmountDefeat_77_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_78
+        Description AmountDefeat_78_desc
+        EffectsDescription AmountDefeat_78_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_79
+        Description AmountDefeat_79_desc
+        EffectsDescription AmountDefeat_79_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_80
+        Description AmountDefeat_80_desc
+        EffectsDescription AmountDefeat_80_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level AmountDefeat_81
+        Description AmountDefeat_81_desc
+        EffectsDescription AmountDefeat_81_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+
+;------------------------------------------
+
+;===============================================================
+;                     —◊≈“◊»  œŒ–¿∆≈Õ»… end
+;===============================================================
+
+;------------------------------------------
+Trait  admiral_wooden_leg
+    Characters admiral
+
+    Level wooden_leg
+        Description wooden_leg_desc
+        EffectsDescription wooden_leg_effects_desc
+        Epithet wooden_leg_epithet_desc
+        Threshold  1 
+
+        Effect NavalCommand  1
+        Effect MovementPoints  2
+
+
+;------------------------------------------
+Trait  admiral_arm_hook
+    Characters admiral
+
+    Level arm_hook
+        Description arm_hook_desc
+        EffectsDescription arm_hook_effects_desc
+        Epithet arm_hook_epithet_desc
+        Threshold  1 
+
+        Effect NavalCommand  2
+
+
+;------------------------------------------
+Trait  admiral_eye_patch
+    Characters admiral
+
+    Level eye_patch
+        Description eye_patch_desc
+        EffectsDescription eye_patch_effects_desc
+        Epithet eye_patch_epithet_desc
+        Threshold  1 
+
+        Effect NavalCommand  1
+        Effect LineOfSight  2
+
+
+;------------------------------------------
+Trait  admiral_black_beard
+    Characters admiral
+
+    Level black_beard
+        Description black_beard_desc
+        EffectsDescription black_beard_effects_desc
+        Epithet black_beard_epithet_desc
+        Threshold  1 
+
+        Effect NavalCommand  1
+        Effect TroopMorale  2
+        Effect MovementPoints  1
+
+
+;------------------------------------------
+Trait  admiral_red_beard
+    Characters admiral
+
+    Level red_beard
+        Description red_beard_desc
+        EffectsDescription red_beard_effects_desc
+        Epithet red_beard_epithet_desc
+        Threshold  1 
+
+        Effect NavalCommand  1
+        Effect TroopMorale  2
+        Effect LineOfSight  1
+
+
+;------------------------------------------
+Trait  admiral_blue_beard
+    Characters admiral
+
+    Level blue_beard
+        Description blue_beard_desc
+        EffectsDescription blue_beard_effects_desc
+        Epithet blue_beard_epithet_desc
+        Threshold  1 
+
+        Effect NavalCommand  1
+        Effect TroopMorale  2
+        Effect BattleSurgery  10
+
+
+;------------------------------------------
+
+Trait career_Count_Admiral_Battle
+    Characters admiral
+    Hidden
+
+    Level career_Count_Admiral_Battle_1
+        Description career_Count_Admiral_Battle_1_desc
+        EffectsDescription career_Count_Admiral_Battle_1_effects_desc
+        Threshold  1 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level career_Count_Admiral_Battle_2
+        Description career_Count_Admiral_Battle_2_desc
+        EffectsDescription career_Count_Admiral_Battle_2_effects_desc
+        Threshold  2 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level career_Count_Admiral_Battle_3
+        Description career_Count_Admiral_Battle_3_desc
+        EffectsDescription career_Count_Admiral_Battle_3_effects_desc
+        Threshold  3 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level career_Count_Admiral_Battle_4
+        Description career_Count_Admiral_Battle_4_desc
+        EffectsDescription career_Count_Admiral_Battle_4_effects_desc
+        Threshold  4 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level career_Count_Admiral_Battle_5
+        Description career_Count_Admiral_Battle_5_desc
+        EffectsDescription career_Count_Admiral_Battle_5_effects_desc
+        Threshold  5 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level career_Count_Admiral_Battle_6
+        Description career_Count_Admiral_Battle_6_desc
+        EffectsDescription career_Count_Admiral_Battle_6_effects_desc
+        Threshold  6 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level career_Count_Admiral_Battle_7
+        Description career_Count_Admiral_Battle_7_desc
+        EffectsDescription career_Count_Admiral_Battle_7_effects_desc
+        Threshold  7 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level career_Count_Admiral_Battle_8
+        Description career_Count_Admiral_Battle_8_desc
+        EffectsDescription career_Count_Admiral_Battle_8_effects_desc
+        Threshold  8 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
+
+    Level career_Count_Admiral_Battle_9
+        Description career_Count_Admiral_Battle_9_desc
+        EffectsDescription career_Count_Admiral_Battle_9_effects_desc
+        Threshold  9 
+
+        Effect Negotiation  1
+        Effect Negotiation -1
 
 
 ;------------------------------------------
@@ -12829,6 +13766,7 @@ Trigger starting_conditions_0
 
     Affects NoteRange  1  Chance  100
     Affects AmountWin0  1  Chance  100
+    Affects AmountDefeat0  1  Chance  100
 
 ;------------------------------------------
 Trigger starting_conditions_1
@@ -12837,6 +13775,7 @@ Trigger starting_conditions_1
 
     Affects NoteRange  1  Chance  100
     Affects AmountWin0  1  Chance  100
+    Affects AmountDefeat0  1  Chance  100
 
 ;------------------------------------------
 Trigger starting_conditions_2
@@ -12845,6 +13784,7 @@ Trigger starting_conditions_2
 
     Affects NoteRange  1  Chance  100
     Affects AmountWin0  1  Chance  100
+    Affects AmountDefeat0  1  Chance  100
 
 ;------------------------------------------
 Trigger starting_conditions_3
@@ -12853,6 +13793,7 @@ Trigger starting_conditions_3
 
     Affects NoteRange  1  Chance  100
     Affects AmountWin0  1  Chance  100
+    Affects AmountDefeat0  1  Chance  100
 
 ;------------------------------------------
 Trigger starting_conditions_4
@@ -12861,6 +13802,7 @@ Trigger starting_conditions_4
 
     Affects NoteRange  1  Chance  100
     Affects AmountWin0  1  Chance  100
+    Affects AmountDefeat0  1  Chance  100
 
 ;------------------------------------------
 
@@ -14176,6 +15118,7 @@ Trigger career_Count_Battle_Adm_02
           and Trait AmountWin10_18 = 3
 
     Affects career_Count_Battle  1  Chance  100
+    Affects career_Count_Admiral_Battle  1  Chance  100
 
 ;------------------------------------------
 
@@ -14187,6 +15130,7 @@ Trigger career_Count_Battle_Adm_01
           and Trait AmountWin1_9 = 5
 
     Affects career_Count_Battle  1  Chance  100
+    Affects career_Count_Admiral_Battle  1  Chance  100
 
 ;------------------------------------------
 ;------------------------------------------
@@ -18243,7 +19187,7 @@ Trigger admiral1
 
     Condition AgentType = admiral
           and WonBattle
-          and BattleOdds < 2.25
+          and BattleOdds < 1.55
 
     Affects FixingAdmiral  1  Chance  100 
     Affects Sailor  1  Chance  100 
@@ -18377,6 +19321,246 @@ Trigger races
 ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;== Start kotLeon Trigger ==
 ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+;===============================================================
+;                     —◊≈“◊»  œŒ–¿∆≈Õ»…
+;===============================================================
+
+;------------------------------------------
+Trigger AmountDefeat_9_3
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat73_81 > 0
+          and Trait AmountDefeat73_81 < 9
+
+    Affects AmountDefeat73_81  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_9_2
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat64_72 = 9
+          and Trait AmountDefeat73_81 = 0
+
+    Affects AmountDefeat64_72  -9  Chance  100
+    Affects AmountDefeat73_81  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_8_3
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat64_72 > 0
+          and Trait AmountDefeat64_72 < 9
+
+    Affects AmountDefeat64_72  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_8_2
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat55_63 = 9
+          and Trait AmountDefeat64_72 = 0
+
+    Affects AmountDefeat55_63  -9  Chance  100
+    Affects AmountDefeat64_72  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_7_3
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat55_63 > 0
+          and Trait AmountDefeat55_63 < 9
+
+    Affects AmountDefeat55_63  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_7_2
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat46_54 = 9
+          and Trait AmountDefeat55_63 = 0
+
+    Affects AmountDefeat46_54  -9  Chance  100
+    Affects AmountDefeat55_63  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_6_3
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat46_54 > 0
+          and Trait AmountDefeat46_54 < 9
+
+    Affects AmountDefeat46_54  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_6_2
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat37_45 = 9
+          and Trait AmountDefeat46_54 = 0
+
+    Affects AmountDefeat37_45  -9  Chance  100
+    Affects AmountDefeat46_54  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_5_3
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat37_45 > 0
+          and Trait AmountDefeat37_45 < 9
+
+    Affects AmountDefeat37_45  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_5_2
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat28_36 = 9
+          and Trait AmountDefeat37_45 = 0
+
+    Affects AmountDefeat28_36  -9  Chance  100
+    Affects AmountDefeat37_45  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_4_3
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat28_36 > 0
+          and Trait AmountDefeat28_36 < 9
+
+    Affects AmountDefeat28_36  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_4_2
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat19_27 = 9
+          and Trait AmountDefeat28_36 = 0
+
+    Affects AmountDefeat19_27  -9  Chance  100
+    Affects AmountDefeat28_36  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_3_3
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat19_27 > 0
+          and Trait AmountDefeat19_27 < 9
+
+    Affects AmountDefeat19_27  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_3_2
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat10_18 = 9
+          and Trait AmountDefeat19_27 = 0
+
+    Affects AmountDefeat10_18  -9  Chance  100
+    Affects AmountDefeat19_27  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_2_3
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat10_18 > 0
+          and Trait AmountDefeat10_18 < 9
+
+    Affects AmountDefeat10_18  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_2_2
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat1_9 = 9
+          and Trait AmountDefeat10_18 = 0
+
+    Affects AmountDefeat1_9  -9  Chance  100
+    Affects AmountDefeat10_18  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_1_2
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat1_9 > 0
+          and Trait AmountDefeat1_9 < 9
+
+    Affects AmountDefeat1_9  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_1_1
+    WhenToTest PostBattle
+
+    Condition not WonBattle
+          and Trait AmountDefeat1_9 = 0
+          and Trait AmountDefeat0 = 1
+
+    Affects AmountDefeat0  -1  Chance  100
+    Affects AmountDefeat1_9  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_0_1
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and Trait AmountDefeat0 = 0
+          and Trait AmountDefeat1_9 = 0
+          and Trait AmountDefeat10_18 = 0
+          and Trait AmountDefeat19_27 = 0
+          and Trait AmountDefeat28_36 = 0
+          and Trait AmountDefeat37_45 = 0
+          and Trait AmountDefeat46_54 = 0
+          and Trait AmountDefeat55_63 = 0
+          and Trait AmountDefeat64_72 = 0
+          and Trait AmountDefeat73_81 = 0
+
+    Affects AmountDefeat1_9  1  Chance  100
+
+;------------------------------------------
+Trigger AmountDefeat_0_2
+    WhenToTest PostBattle
+
+    Condition IsAdmiral
+          and not WonBattle
+          and Trait AmountDefeat0 = 0
+          and Trait AmountDefeat1_9 = 0
+          and Trait AmountDefeat10_18 = 0
+          and Trait AmountDefeat19_27 = 0
+          and Trait AmountDefeat28_36 = 0
+          and Trait AmountDefeat37_45 = 0
+          and Trait AmountDefeat46_54 = 0
+          and Trait AmountDefeat55_63 = 0
+          and Trait AmountDefeat64_72 = 0
+          and Trait AmountDefeat73_81 = 0
+
+    Affects FixingAdmiral  1  Chance  100 
+    Affects AmountDefeat1_9  1  Chance  100
+
+;------------------------------------------
+
+
+;===============================================================
+;        ŒÕ≈÷         —◊≈“◊»  œŒ–¿∆≈Õ»…            ŒÕ≈÷
+;===============================================================
 
 
 ;------------------------------------------
@@ -21432,12 +22616,41 @@ Trigger inheritance_t_k20
 
 ;------------------------------------------
 
+Trigger dynasty_t_k190
+    WhenToTest CharacterTurnStart
+
+    Condition IsGeneral
+          and FactionType romans_senate
+          and not OriginalFactionType romans_senate
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_romans_senate = 0
+          and Trait MainDynasty_romans_senate = 0
+
+    Affects AdoptedDynasty  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k183
+    WhenToTest CharacterTurnStart
+
+    Condition IsGeneral
+          and I_TurnNumber =  0 
+          and FactionType romans_senate
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_romans_senate = 0
+
+    Affects MainDynasty_romans_senate  1  Chance  100 
+
+;------------------------------------------
+
 Trigger dynasty_t_k01
     WhenToTest CharacterTurnStart
 
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType romans_julii
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_romans_julii = 0
 
     Affects MainDynasty_romans_julii  1  Chance  100 
 
@@ -21449,6 +22662,8 @@ Trigger dynasty_t_k02
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType romans_brutii
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_romans_brutii = 0
 
     Affects MainDynasty_romans_brutii  1  Chance  100 
 
@@ -21460,6 +22675,8 @@ Trigger dynasty_t_k03
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType romans_scipii
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_romans_scipii = 0
 
     Affects MainDynasty_romans_scipii  1  Chance  100 
 
@@ -21471,6 +22688,8 @@ Trigger dynasty_t_k04
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType carthage
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_carthage = 0
 
     Affects MainDynasty_carthage  1  Chance  100 
 
@@ -21482,6 +22701,8 @@ Trigger dynasty_t_k05
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType egypt
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_egypt = 0
 
     Affects MainDynasty_egypt  1  Chance  100 
 
@@ -21493,6 +22714,8 @@ Trigger dynasty_t_k06
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType numidia
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_numidia = 0
 
     Affects MainDynasty_numidia  1  Chance  100 
 
@@ -21504,6 +22727,8 @@ Trigger dynasty_t_k07
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType parthia
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_parthia = 0
 
     Affects MainDynasty_parthia  1  Chance  100 
 
@@ -21515,6 +22740,8 @@ Trigger dynasty_t_k08
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType seleucid
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_seleucid = 0
 
     Affects MainDynasty_seleucid  1  Chance  100 
 
@@ -21526,6 +22753,8 @@ Trigger dynasty_t_k09
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType pontus
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_pontus = 0
 
     Affects MainDynasty_pontus  1  Chance  100 
 
@@ -21537,6 +22766,8 @@ Trigger dynasty_t_k10
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType macedon
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_macedon = 0
 
     Affects MainDynasty_macedon  1  Chance  100 
 
@@ -21548,6 +22779,8 @@ Trigger dynasty_t_k11
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType greek_cities
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_greek_cities = 0
 
     Affects MainDynasty_greek_cities  1  Chance  100 
 
@@ -21559,6 +22792,8 @@ Trigger dynasty_t_k12
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType thrace
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_thrace = 0
 
     Affects MainDynasty_thrace  1  Chance  100 
 
@@ -21570,6 +22805,8 @@ Trigger dynasty_t_k13
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType armenia
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_armenia = 0
 
     Affects MainDynasty_armenia  1  Chance  100 
 
@@ -21581,6 +22818,8 @@ Trigger dynasty_t_k14
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType britons
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_britons = 0
 
     Affects MainDynasty_britons  1  Chance  100 
 
@@ -21592,6 +22831,8 @@ Trigger dynasty_t_k15
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType dacia
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_dacia = 0
 
     Affects MainDynasty_dacia  1  Chance  100 
 
@@ -21603,6 +22844,8 @@ Trigger dynasty_t_k16
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType gauls
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_gauls = 0
 
     Affects MainDynasty_gauls  1  Chance  100 
 
@@ -21614,6 +22857,8 @@ Trigger dynasty_t_k17
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType spain
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_spain = 0
 
     Affects MainDynasty_spain  1  Chance  100 
 
@@ -21625,6 +22870,8 @@ Trigger dynasty_t_k18
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType germans
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_germans = 0
 
     Affects MainDynasty_germans  1  Chance  100 
 
@@ -21636,8 +22883,20 @@ Trigger dynasty_t_k19
     Condition IsGeneral
           and I_TurnNumber =  0 
           and FactionType scythia
+          and Trait AdoptedDynasty = 0
+          and Trait SideDynasty_scythia = 0
 
     Affects MainDynasty_scythia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k184
+    WhenToTest CharacterComesOfAge
+
+    Condition IsGeneral
+          and FatherTrait MainDynasty_romans_senate = 1
+
+    Affects MainDynasty_romans_senate  1  Chance  100 
 
 ;------------------------------------------
 
@@ -21831,6 +23090,15 @@ Trigger dynasty_t_k38
 
 ;------------------------------------------
 
+Trigger dynasty_t_k187
+    WhenToTest OfferedForMarriage
+
+    Condition FactionType romans_senate
+
+    Affects SideDynasty_romans_senate  1  Chance  100 
+
+;------------------------------------------
+
 Trigger dynasty_t_k39
     WhenToTest OfferedForMarriage
 
@@ -21999,6 +23267,16 @@ Trigger dynasty_t_k57
     Condition FactionType scythia
 
     Affects SideDynasty_scythia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k188
+    WhenToTest CharacterComesOfAge
+
+    Condition IsGeneral
+          and FatherTrait SideDynasty_romans_senate = 1
+
+    Affects SideDynasty_romans_senate  1  Chance  100 
 
 ;------------------------------------------
 
@@ -22220,6 +23498,17 @@ Trigger dynasty_t_k79
 
 ;------------------------------------------
 
+Trigger dynasty_t_k185
+    WhenToTest BrotherAdopted
+
+    Condition IsGeneral
+          and FactionType romans_senate
+          and Trait MainDynasty_romans_senate = 1
+
+    Affects AdoptedDynasty  -1  Chance  100 
+
+;------------------------------------------
+
 Trigger dynasty_t_k80
     WhenToTest BrotherAdopted
 
@@ -22424,6 +23713,17 @@ Trigger dynasty_t_k98
     Condition IsGeneral
           and FactionType scythia
           and Trait MainDynasty_scythia = 1
+
+    Affects AdoptedDynasty  -1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k189
+    WhenToTest BrotherAdopted
+
+    Condition IsGeneral
+          and FactionType romans_senate
+          and Trait SideDynasty_romans_senate = 1
 
     Affects AdoptedDynasty  -1  Chance  100 
 
@@ -22635,6 +23935,16 @@ Trigger dynasty_t_k117
           and Trait SideDynasty_scythia = 1
 
     Affects AdoptedDynasty  -1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k186
+    WhenToTest CharacterTurnEndInSettlement
+
+    Condition IsGeneral
+          and Trait MainDynasty_romans_senate = 1
+
+    Affects Fertile  1  Chance  8 
 
 ;------------------------------------------
 
@@ -22892,6 +24202,17 @@ Trigger dynasty_t_k142
           and FatherTrait GoodCommander = 5
 
     Affects LegendaryDynasty  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k182
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = diplomat
+          and I_TurnNumber =  0 
+          and FactionType romans_senate
+
+    Affects DiplomatDynasty_romans_senate  1  Chance  100 
 
 ;------------------------------------------
 
@@ -23291,6 +24612,54 @@ Trigger dynasty_t_k180
           and FactionType scythia
 
     Affects DiplomatDynasty_scythia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k181
+    WhenToTest AgentCreated
+
+    Condition AgentType = diplomat
+          and FactionType romans_senate
+
+    Affects DiplomatDynasty_romans_senate  1  Chance  100 
+
+;------------------------------------------
+;------------------------------------------
+
+Trigger title_of_authority_01
+    WhenToTest PostBattle
+
+    Condition IsAdmiral
+          and Trait career_Count_Admiral_Battle > 0
+          and Trait admiral_wooden_leg = 0
+          and Trait admiral_arm_hook = 0
+          and Trait admiral_eye_patch = 0
+          and Trait admiral_black_beard = 0
+          and Trait admiral_red_beard = 0
+          and Trait admiral_blue_beard = 0
+
+    Affects admiral_wooden_leg  1  Chance  1
+    Affects admiral_arm_hook  1  Chance  1
+    Affects admiral_eye_patch  1  Chance  1
+
+;------------------------------------------
+
+Trigger title_of_authority_02
+    WhenToTest PostBattle
+
+    Condition IsAdmiral
+          and WonBattle
+          and Trait career_Count_Admiral_Battle > 1
+          and Trait admiral_wooden_leg = 0
+          and Trait admiral_arm_hook = 0
+          and Trait admiral_eye_patch = 0
+          and Trait admiral_black_beard = 0
+          and Trait admiral_red_beard = 0
+          and Trait admiral_blue_beard = 0
+
+    Affects admiral_black_beard  1  Chance  1
+    Affects admiral_red_beard  1  Chance  1
+    Affects admiral_blue_beard  1  Chance  1
 
 ;------------------------------------------
 
