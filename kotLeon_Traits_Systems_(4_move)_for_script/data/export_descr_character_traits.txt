@@ -6866,6 +6866,8 @@ Trait AmountDefeat73_81
 ;------------------------------------------
 Trait  admiral_wooden_leg
     Characters admiral
+    NoGoingBackLevel  1 
+    AntiTraits admiral_arm_hook, admiral_eye_patch
 
     Level wooden_leg
         Description wooden_leg_desc
@@ -6880,6 +6882,8 @@ Trait  admiral_wooden_leg
 ;------------------------------------------
 Trait  admiral_arm_hook
     Characters admiral
+    NoGoingBackLevel  1 
+    AntiTraits admiral_wooden_leg, admiral_eye_patch
 
     Level arm_hook
         Description arm_hook_desc
@@ -6893,6 +6897,8 @@ Trait  admiral_arm_hook
 ;------------------------------------------
 Trait  admiral_eye_patch
     Characters admiral
+    NoGoingBackLevel  1 
+    AntiTraits admiral_wooden_leg, admiral_arm_hook
 
     Level eye_patch
         Description eye_patch_desc
@@ -6907,6 +6913,8 @@ Trait  admiral_eye_patch
 ;------------------------------------------
 Trait  admiral_black_beard
     Characters admiral
+    NoGoingBackLevel  1 
+    AntiTraits admiral_red_beard, admiral_blue_beard
 
     Level black_beard
         Description black_beard_desc
@@ -6922,6 +6930,8 @@ Trait  admiral_black_beard
 ;------------------------------------------
 Trait  admiral_red_beard
     Characters admiral
+    NoGoingBackLevel  1 
+    AntiTraits admiral_black_beard, admiral_blue_beard
 
     Level red_beard
         Description red_beard_desc
@@ -6937,6 +6947,8 @@ Trait  admiral_red_beard
 ;------------------------------------------
 Trait  admiral_blue_beard
     Characters admiral
+    NoGoingBackLevel  1 
+    AntiTraits admiral_black_beard, admiral_red_beard
 
     Level blue_beard
         Description blue_beard_desc
@@ -23263,6 +23275,366 @@ Trigger dynasty_t_k56
 
 Trigger dynasty_t_k57
     WhenToTest OfferedForMarriage
+
+    Condition FactionType scythia
+
+    Affects SideDynasty_scythia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k191
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType romans_senate
+
+    Affects SideDynasty_romans_senate  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k192
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType romans_julii
+
+    Affects SideDynasty_romans_julii  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k193
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType romans_brutii
+
+    Affects SideDynasty_romans_brutii  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k194
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType romans_scipii
+
+    Affects SideDynasty_romans_scipii  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k195
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType carthage
+
+    Affects SideDynasty_carthage  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k196
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType egypt
+
+    Affects SideDynasty_egypt  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k197
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType numidia
+
+    Affects SideDynasty_numidia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k198
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType parthia
+
+    Affects SideDynasty_parthia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k199
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType seleucid
+
+    Affects SideDynasty_seleucid  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k200
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType pontus
+
+    Affects SideDynasty_pontus  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k201
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType macedon
+
+    Affects SideDynasty_macedon  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k202
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType greek_cities
+
+    Affects SideDynasty_greek_cities  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k203
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType thrace
+
+    Affects SideDynasty_thrace  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k204
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType armenia
+
+    Affects SideDynasty_armenia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k205
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType britons
+
+    Affects SideDynasty_britons  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k206
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType dacia
+
+    Affects SideDynasty_dacia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k207
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType gauls
+
+    Affects SideDynasty_gauls  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k208
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType spain
+
+    Affects SideDynasty_spain  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k209
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType germans
+
+    Affects SideDynasty_germans  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k210
+    WhenToTest OfferedForAdoption
+
+    Condition FactionType scythia
+
+    Affects SideDynasty_scythia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k211
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType romans_senate
+
+    Affects SideDynasty_romans_senate  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k212
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType romans_julii
+
+    Affects SideDynasty_romans_julii  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k213
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType romans_brutii
+
+    Affects SideDynasty_romans_brutii  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k214
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType romans_scipii
+
+    Affects SideDynasty_romans_scipii  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k215
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType carthage
+
+    Affects SideDynasty_carthage  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k216
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType egypt
+
+    Affects SideDynasty_egypt  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k217
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType numidia
+
+    Affects SideDynasty_numidia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k218
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType parthia
+
+    Affects SideDynasty_parthia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k219
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType seleucid
+
+    Affects SideDynasty_seleucid  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k220
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType pontus
+
+    Affects SideDynasty_pontus  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k221
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType macedon
+
+    Affects SideDynasty_macedon  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k222
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType greek_cities
+
+    Affects SideDynasty_greek_cities  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k223
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType thrace
+
+    Affects SideDynasty_thrace  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k224
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType armenia
+
+    Affects SideDynasty_armenia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k225
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType britons
+
+    Affects SideDynasty_britons  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k226
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType dacia
+
+    Affects SideDynasty_dacia  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k227
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType gauls
+
+    Affects SideDynasty_gauls  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k228
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType spain
+
+    Affects SideDynasty_spain  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k229
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionType germans
+
+    Affects SideDynasty_germans  1  Chance  100 
+
+;------------------------------------------
+
+Trigger dynasty_t_k230
+    WhenToTest LesserGeneralOfferedForAdoption
 
     Condition FactionType scythia
 
